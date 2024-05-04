@@ -21,7 +21,7 @@ function Reasons() {
     <div>
        <section className="test mt-20 mx-auto w-[83%] mb-24">
          <h1 className='text-white font-semibold text-4xl text-center'>Trusted by <span className='text-[#FFBE69]'>industry-leading</span> Teams</h1>
-         <div className="logo-wrapper flex mx-auto w-[83%] justify-between my-16">
+         <div className="logo-wrapper flex mx-auto w-[83%] flex-wrap justify-between my-16">
                 <img src={code} alt="" />
                 <img src={ERC} alt=""/>
                 <img src={open} alt=""/>
@@ -55,16 +55,16 @@ function Reasons() {
                 </div> */}
 
                 <div className="flex justify-evenly gap-x-1 gap-y-4 flex-wrap mx-auto w-[86%] mt-12 mb-3">
-                <img src={one} alt="" className='bg-[#121520] py-16 px-40 rounded-2xl 1'/>
-                <img src={two} alt=""className='bg-[#121520] py-16 px-40 rounded-2xl 2' />
-                <img src={three} alt="" className='bg-[#121520] py-16 px-40 rounded-2xl 3'/>
-                <img src={four} alt="" className='bg-[#121520] py-16 px-[9.6rem] rounded-2xl 4'/>
-                <img src={five} alt="" className='bg-[#121520] py-16 px-[9.6rem] rounded-2xl 5'/>
-                <img src={six} alt="" className='bg-[#121520] py-16 px-40 rounded-2xl 6'/>
-                <img src={seven} alt="" className='bg-[#121520] py-10 px-28 rounded-2xl 7'/>
-                <img src={eight} alt="" className='bg-[#121520] py-10 px-28 rounded-2xl 8'/>
-                <img src={Arbitrum} alt="" className='bg-[#121520] py-10 px-28 rounded-2xl 9'/>
-                <img src={nine} alt="" className='bg-[#121520] py-10 px-28 rounded-2xl 10'/>
+                <img src={one} alt="" className='bg-[#121520] py-16 px-[14%] rounded-2xl 1'/>
+                <img src={two} alt=""className='bg-[#121520] py-16 px-[14%] rounded-2xl 2' />
+                <img src={three} alt="" className='bg-[#121520] py-16 px-[14%] rounded-2xl 3'/>
+                <img src={four} alt="" className='bg-[#121520] py-16 px-[13.2%] rounded-2xl 4'/>
+                <img src={five} alt="" className='bg-[#121520] py-16 px-[13.5%] rounded-2xl 5'/>
+                <img src={six} alt="" className='bg-[#121520] py-16 px-[14%] rounded-2xl 6'/>
+                <img src={seven} alt="" className='bg-[#121520] py-10 px-[10%] rounded-2xl 7'/>
+                <img src={eight} alt="" className='bg-[#121520] py-10 px-[10%] rounded-2xl 8'/>
+                <img src={Arbitrum} alt="" className='bg-[#121520] py-10 px-[10%] rounded-2xl 9'/>
+                <img src={nine} alt="" className='bg-[#121520] py-10 px-[10%] rounded-2xl 10'/>
             </div>
         </section>
         

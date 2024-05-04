@@ -24,8 +24,8 @@ function Footer() {
                     </ul>
             </nav> 
             <div className='border-[0.5px] border-b-[#24273C] my-10'></div>
-            <div className="flex gap-x-56">
-                <div className="footer-items text-[#9094A2] flex gap-x-[6.5rem]">
+            <div className="flex flex-col gap-y-10 lg:flex-row lg:gap-x-[3%] 2xl:gap-x-56">
+                <div className="footer-items text-[#9094A2] flex flex-col md:flex-wrap gap-x-[6.5rem] md:flex-row">
                     <div className="products">
                         <h1>Products</h1>
                         <p>Web Wallet</p>
@@ -56,8 +56,8 @@ function Footer() {
                 <div className="footer-form">
                     <h1 className='text-xl text-white'>Sign up for Ambire news</h1>
                     <p className='mt-4 text-white'>Email Address</p>
-                    <input type="text" placeholder='toluwani@gmail.com' className='placeholder:text-sm bg-[#080B18] mt-4 rounded-full border py-2 pl-4 pr-32 border-[#2F354C]'/><br />
-                    <button className='text-white w-full mt-8 font-semibold text-center text-sm rounded-full py-2 bg-gradient-to-r from-[#FFBE69] from-0% via-[#D07494] via-50% to-[#AE60FF] to-100%'>Subscribe</button>
+                    <input type="text" placeholder='toluwani@gmail.com' className='placeholder:text-sm bg-[#080B18] mt-4 rounded-full border py-2 pl-4 pr-20 border-[#2F354C]'/><br />
+                    <button className='text-white px-28 lg:w-full mt-8 font-semibold text-center text-sm rounded-full py-2 bg-gradient-to-r from-[#FFBE69] from-0% via-[#D07494] via-50% to-[#AE60FF] to-100%'>Subscribe</button>
                     <h1 className='mt-16 text-white text-lg'>Follow Us:</h1>
                     <div className="logo-container flex gap-x-4 font-semibold mt-4">
                         <a href=""><img src={Github} alt="" /></a>

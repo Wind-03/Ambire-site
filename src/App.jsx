@@ -7,7 +7,7 @@ import Questions from "./components/Questions"
 import Footer from "./components/Footer"
 function App() {
   return (
-    <div>
+    <div className=''>
       <Hero/>
       <Reasons/>
       <Testimonials/>

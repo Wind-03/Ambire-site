@@ -7,10 +7,10 @@ import testimonials from './Data/TestimonialData'
 
 function Testimonials() {
   return (
-    <div className='relative mb-48'>
+    <div className='relative mb-48 border border-red-500'>
         {/* <div className="h-full w-[15%] mx-auto z-10 bg-[#080B18] blur-[100px] opacity-100 absolute top-72 left-0"></div>
         <div className="h-full w-[15%] mx-auto z-10 bg-[#080B18] blur-[100px] opacity-100 absolute top-72 right-0"></div> */}
-        <img src={TOP} alt="" className='absolute top-0 -z-10 left-48' />
+        {/* <img src={TOP} alt="" className='absolute top-0 -z-10 left-24 w-[83%] 2xl:left-48' /> */}
         <div className="text ml-[15%] ">
         <button className='text-white text-lg rounded-full border-none px-5 mt-20 py-2 bg-[#8035FD] '>What they said</button>
         <h1 className='gradient-text font-medium text-[4rem]'>They love Ambire Wallet</h1>
