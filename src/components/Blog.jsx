@@ -32,7 +32,7 @@ function Blog() {
             <img src={Bottom} alt='' className='-z-10 absolute -bottom-12 w-full'/>
           </span>
           <div className="flex flex-col gap-y-10 -mt-12 ml-6 lg:flex-row lg:ml-36 lg:-mt-24 lg:gap-x-12 items-center">
-            <div ref={scrollContainer} className="blog-items flex overflow-x-scroll gap-x-4 w-[89%] md:w-[75%] border border-red-500" style={{scrollbarWidth: 'none'}}>
+            <div ref={scrollContainer} className="blog-items flex overflow-x-scroll gap-x-4 w-[89%] md:w-[75%]" style={{scrollbarWidth: 'none'}}>
               {BlogPosts.map((post, items) => (
                 <div key={items} className="blog-card text-white h-[603px] bg-[#121520] w-[350px] rounded-lg">
                   <img src={post.imgSrc} alt="" className='image'/>

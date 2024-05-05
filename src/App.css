@@ -1,8 +1,8 @@
-/* * {
-  overflow-x: hidden;
+* {
+  /* overflow-x: hidden; */
   margin: 0;
   box-sizing: border-box
-} */
+}
 /************NAVBAR************/
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 .nav-link {
@@ -44,7 +44,6 @@
   color: #fff;
   font-size: 1.5em;
 }
-
 @media (max-width: 1024px) {
   .nav-links {
     transform: translateY(-100%);
@@ -66,6 +65,12 @@
 
   .hamburger {
     display: block;
+  }
+  .mobile-img{
+    width:39%;
+  }
+  .tablet-img{
+    width:35%
   }
 }
 /********Main page***********/
@@ -160,3 +165,4 @@ border: 2px solid transparent;
 .footer-items p{
   margin-bottom:15px;
 }
+

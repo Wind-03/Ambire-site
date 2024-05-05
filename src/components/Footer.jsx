@@ -14,7 +14,7 @@ function Footer() {
         <div className="footer-container w-[83%] mx-auto py-12">
             <nav className='mx-auto flex justify-between items-center'> 
                     <img src={Logo} alt="" />
-                    <ul className='flex text-[#CCCCCC] justify-between items-center gap-8 text-md'>
+                    <ul className='hidden text-[#CCCCCC] justify-between items-center gap-8 text-md hidden-part lg:flex'>
                     <li><a className="nav-link" href="/">Home</a></li>
                     <li><a className="nav-link" href="/about">Mobile App</a></li>
                     <li><a className="nav-link" href="/contact">Community</a></li>

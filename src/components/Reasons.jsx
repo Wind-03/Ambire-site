@@ -19,8 +19,8 @@ import nine from "../assets/Group9.svg"
 function Reasons() {
   return (
     <div>
-       <section className="test mt-20 mx-auto w-[83%] mb-24">
-         <h1 className='text-white font-semibold text-4xl text-center'>Trusted by <span className='text-[#FFBE69]'>industry-leading</span> Teams</h1>
+       <section className="test mt-48 mx-auto md:mt-48 w-[83%] mb-24">
+         <h1 className='text-white font-semibold text-xl lg:text-4xl text-center'>Trusted by <span className='text-[#FFBE69]'>industry-leading</span> Teams</h1>
          <div className="logo-wrapper flex mx-auto w-[83%] flex-wrap justify-between my-16">
                 <img src={code} alt="" />
                 <img src={ERC} alt=""/>
