@@ -17,7 +17,7 @@ function Hero() {
         <section className="navbar mx-auto text-white p-8 lg:p-[3.2rem]">
             <nav className=' w-[99%] lg:max-xl:w-[95%] lg:w-[83%] mx-auto flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white rounded-full px-8 py-2'> 
                 <img src={Logo} alt="" className='lg:max-2xl:w-[72px]'/>
-                <div className={`flex justify-between lg:gap-x-12 xl:gap-x-36 ${isOpen ? 'show' : ''} nav-links backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white`}>
+                <div className={`flex justify-between lg:gap-x-12 xl:gap-x-36 ${isOpen ? 'show' : ''} nav-links backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white lg:bg-transparent lg:backdrop-blur-none lg:bg-opacity-100 lg:backdrop-filter-none`}>
                     <ul className='flex text-gray-500 justify-between items-center text-sm gap-6 lg:max-2xl:text-base lg:gap-8 2xl:text-lg'>
                     <li><a className="nav-link" href="/">Home</a></li>
                     <li><a className="nav-link" href="/about">Mobile App</a></li>
@@ -42,7 +42,7 @@ function Hero() {
                     <button className='text-white text-sm lg:text-lg rounded-full px-5 py-1 lg:px-10 lg:py-2 bg-gradient-to-r from-[#FFBE69] from-30% via-[#D07494] via-50% to-[#AE60FF] to-100%'>Create Wallet</button>
                 </span>
             </div>
-            <div className='hidden image-wrapper md:block relative mt-10 mb-[20%] pb-32 md:mb-[20%] md:pb-72 lg:pb-[26rem] xl:mb-[20%] xl:pb-[30%] lg:mb-32 2xl:pb-[48rem] z-[1]'>
+            <div className='hidden image-wrapper md:block relative mt-10 mb-[20%] pb-32 md:mb-[20%] md:pb-72 lg:pb-[26rem] xl:mb-[20%] xl:pb-[30%] lg:mb-32 z-[1]'>
                 {/* <img src={Details} alt="" className='absolute left-[27rem] top-6 z-[1] w-[38%] h-fit'/> */}
                 <img src={tilted} alt="" className='absolute left-[2rem] 2xl:left-[8rem] w-[90%] h-fit' />
                 {/* <img src={banner} alt="" className='absolute top-[35rem] left-[8rem] w-[32%] h-fit'/> */}

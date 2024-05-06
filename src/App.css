@@ -72,6 +72,12 @@
   .tablet-img{
     width:35%
   }
+  .coin-logo img{
+    width:24;
+    height:28;
+    border:1px solid red;
+    padding:5% 7%;
+  }
 }
 /********Main page***********/
 .main{

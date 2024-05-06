@@ -20,19 +20,19 @@ function Blog() {
     <div className='mb-16'>
         <div className="bgblur relative">
           <span className='flex justify-center flex-col '>
-            <button className='text-white text-lg rounded-full border-none px-5 mt-36 py-2 bg-[#8035FD] mx-auto'>Blog</button>
-            <h1 className='gradient-text font-medium text-[4rem] text-center'>Latest from our blog</h1>
+            <button className='text-white text-sm lg:text-lg rounded-full border-none px-3 py-1 lg:px-5 mt-36 lg:py-2 bg-[#8035FD] mx-auto'>Blog</button>
+            <h1 className='gradient-text font-medium text-3xl mx-auto w-[80%] lg:text-[4rem] lg:w-full text-center'>Latest from our blog</h1>
             {/* <div className="gradient-container absolute -z-10 h-48 w-[40%] opacity-10 border border-red-500 mx-auto flex left-[20rem]">
               <div className='bg-[#533388] h-full w-[30%] blur-2xl'></div>
               <div className='bg-[#762BF1] h-full w-[20%] blur-2xl'></div>
               <div className='bg-gradient-to-r from-[#A27CC3] from-0% via-[#D5AEF6] via-47% to-[#A265D5] to-100% h-full w-[50%] blur-2xl'></div>
             </div> */}
             <img src={BG} alt="" className='top-0 absolute -z-10'/>
-            <img src={Top} alt="" className='mt-16 -z-10'/>
+            <img src={Top} alt="" className='mt-4 lg:mt-16 -z-10'/>
             <img src={Bottom} alt='' className='-z-10 absolute -bottom-12 w-full'/>
           </span>
-          <div className="flex flex-col gap-y-10 -mt-12 ml-6 lg:flex-row lg:ml-36 lg:-mt-24 lg:gap-x-12 items-center">
-            <div ref={scrollContainer} className="blog-items flex overflow-x-scroll gap-x-4 w-[89%] md:w-[75%]" style={{scrollbarWidth: 'none'}}>
+          <div className="flex flex-col gap-y-10 -mt-2 lg:flex-row lg:ml-36 lg:-mt-24 lg:gap-x-12 items-center">
+            <div ref={scrollContainer} className="blog-items flex overflow-x-scroll gap-x-4 w-[97%] md:w-[75%]" style={{scrollbarWidth: 'none'}}>
               {BlogPosts.map((post, items) => (
                 <div key={items} className="blog-card text-white h-[603px] bg-[#121520] w-[350px] rounded-lg">
                   <img src={post.imgSrc} alt="" className='image'/>
