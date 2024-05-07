@@ -34,18 +34,18 @@ function Hero() {
             </nav>
         </section>
         <section className="main mt-4 lg:mt-12">
-            <div className="main-text w-[95%] md:max-xl:w-[60%] xl:w-[50%] 2xl:w-[50%] mx-auto text-center">
+            <div className="main-text w-[90%] md:max-xl:w-[60%] xl:w-[50%] 2xl:w-[50%] mx-auto text-center">
                 <h1 className='text-white gradient-text text-2xl md:text-4xl lg:max-xl:text-5xl xl:text-6xl 2xl:text-7xl font-medium pb-6'>Have Total Control of your <span className=' gradient-text'>wallet with our platform</span></h1>
                 <p className='text-white pb-6 text-sm w-[99%] md:w-[80%] lg:w-[68%] mx-auto'>The first smart contract wallet alternative to Metamask to unlock the full power of Account Abstraction without any compromise on user experience.</p>
-                <span className="flex w-full md:ml-[10%] lg:max-2xl:w-[80%] lg:max-2xl:ml-35  2xl:ml-40 2xl:w-[70%] gap-2">
+                <span className="flex ml-[5%] w-full md:ml-[10%] lg:max-2xl:w-[80%] lg:max-2xl:ml-35  2xl:ml-40 2xl:w-[70%] gap-2">
                     <button className='text-white backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white rounded-full text-sm px-3 py-1 lg:px-6 lg:py-3 lg:text-lg'>Test Browser Extension</button>
                     <button className='text-white text-sm lg:text-lg rounded-full px-5 py-1 lg:px-10 lg:py-2 bg-gradient-to-r from-[#FFBE69] from-30% via-[#D07494] via-50% to-[#AE60FF] to-100%'>Create Wallet</button>
                 </span>
             </div>
-            <div className='hidden image-wrapper md:block relative mt-10 mb-[20%] pb-32 md:mb-[20%] md:pb-72 lg:pb-[26rem] xl:mb-[20%] xl:pb-[30%] lg:mb-32 z-[1]'>
-                {/* <img src={Details} alt="" className='absolute left-[27rem] top-6 z-[1] w-[38%] h-fit'/> */}
-                <img src={tilted} alt="" className='absolute left-[2rem] 2xl:left-[8rem] w-[90%] h-fit' />
-                {/* <img src={banner} alt="" className='absolute top-[35rem] left-[8rem] w-[32%] h-fit'/> */}
+            <div className='image-wrapper md:block relative mt-10 mb-[20%] pb-32 md:mb-[20%] md:pb-72 lg:pb-[26rem] xl:mb-[20%] xl:pb-[30%] lg:mb-32 z-[1]'>
+                <img src={Details} alt="" className='absolute left-[28%] top-6 z-[1] w-[38%] xl:left-[24%] h-fit'/>
+                <img src={tilted} alt="" className='absolute left-[10%] lg:left-[6rem] 2xl:left-[8rem] w-[90%] h-fit' />
+                <img src={banner} alt="" className='absolute top-[120%] md:top-[95%] left-[9%] lg:left-[8%] lg:top-[87%] xl:top-[117%] w-[32%] h-fit'/>
             </div>
         </section>
         <div className="hidden h-12 md:block lg:h-24 w-[70%] mx-auto -z-50 bg-[#A248FF] blur-3xl"></div>

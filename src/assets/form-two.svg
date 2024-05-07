@@ -1,0 +1,32 @@
+<svg width="503" height="434" viewBox="0 0 503 434" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_185)">
+<rect width="503" height="434" rx="16" fill="#080B18"/>
+<rect x="47" y="348" width="400" height="50" rx="12" fill="url(#paint0_linear_1_185)"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="16" letter-spacing="0em"><tspan x="197.5" y="378.82">Sign or Reject</tspan></text>
+<text fill="#EBECFF" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="18" letter-spacing="0em"><tspan x="43" y="45.1742">Waiting to sign </tspan></text>
+<text fill="#EBECFF" fill-opacity="0.4" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="18" letter-spacing="0em"><tspan x="163.182" y="45.1742">(current batch)</tspan></text>
+<path d="M2.5 80H535" stroke="#1F222C"/>
+<rect x="47.5" y="101.5" width="399" height="48" rx="7.5" fill="#080B18"/>
+<rect x="47.5" y="101.5" width="399" height="48" rx="7.5" stroke="#DEBAFD"/>
+<rect x="47" y="101" width="278" height="49" fill="#131418"/>
+<text fill="#EBECFF" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="16" letter-spacing="0em"><tspan x="71" y="131.32">Send 25 USDC to 0x5a2...12F</tspan></text>
+<rect x="47.5" y="174.5" width="399" height="48" rx="7.5" fill="#080B18"/>
+<rect x="47.5" y="174.5" width="399" height="48" rx="7.5" stroke="#2F354C"/>
+<rect x="47" y="174" width="70" height="49" fill="#131418"/>
+<text fill="#EBECFF" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="16" letter-spacing="0em"><tspan x="71" y="204.32">Aprove Uniswap to use 25 USDC</tspan></text>
+<rect x="47.5" y="247.5" width="399" height="48" rx="7.5" fill="#080B18"/>
+<rect x="47.5" y="247.5" width="399" height="48" rx="7.5" stroke="#2F354C"/>
+<rect x="47" y="247" width="68" height="49" fill="#131418"/>
+<text fill="#EBECFF" xml:space="preserve" style="white-space: pre" font-family="Inter Tight" font-size="16" letter-spacing="0em"><tspan x="71" y="277.32">Swap 25 USDC for at least 0.014 ETH</tspan></text>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_185" x1="47" y1="373" x2="447" y2="373" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFBE69"/>
+<stop offset="0.58" stop-color="#D07494"/>
+<stop offset="1" stop-color="#AE60FF"/>
+</linearGradient>
+<clipPath id="clip0_1_185">
+<rect width="503" height="434" rx="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -19,7 +19,7 @@ import nine from "../assets/Group9.svg"
 function Reasons() {
   return (
     <div>
-       <section className="test mt-48 mx-auto md:mt-48 w-[83%] mb-24">
+       <section className="mt-48 mx-auto md:mt-48 mb-24">
          <h1 className='text-white font-semibold text-xl lg:text-4xl text-center'>Trusted by <span className='text-[#FFBE69]'>industry-leading</span> Teams</h1>
          <div className="logo-wrapper flex mx-auto w-[83%] flex-wrap justify-between my-16">
                 <img src={code} alt="" />
@@ -28,8 +28,8 @@ function Reasons() {
                 <img src={whitepaper} alt=""/>
                 <img src={reviews} alt=""/>
          </div>
-         <div className="my-28 mx-auto">
-                <button className='text-white ml-16 text-sm px-3 py-1 lg:text-lg rounded-full border-none lg:px-5 mt-20 lg:py-2 bg-[#8035FD] '>Why choose Us</button>
+         <div className="my-24 mx-auto">
+                <button className='text-white ml-[37%] text-sm px-3 mb-8 py-1 lg:text-lg rounded-full border-none lg:px-5 mt-20 lg:py-2 lg:ml-[40%] bg-[#8035FD] '>Why choose Us</button>
                 <h1 className='text-white text-center text-3xl font-medium lg:text-[4rem]'><span className='text-[#FFBE69]'>Reasons To</span> Love Ambire</h1>
          </div>
         <ImageSlider/>
