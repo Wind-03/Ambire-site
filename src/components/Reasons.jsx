@@ -34,7 +34,7 @@ function Reasons() {
          </div>
         <ImageSlider/>
         </section>
-        <section className="reasons mx-auto w-[83%] my-32">
+        <section className="reasons mx-auto w-[83%] mb-32 -mt-[55rem] md:-mt-[30rem] lg:-mt-[40rem]  xl:-mt-[45rem]">
             <h1 className='text-white text-center mx-auto text-2xl 2xl:text-6xl w-[95%] 2xl:w-[70%]'>The first <span className='text-[#D1B8EB]'>chain-agnostic</span> smart contract wallet</h1>
             <p className='text-white text-center mt-4 text-sm'>Use a single address on all available networks. Swap crypto cross-chain seamlessly.</p>
             {/* <div className="flex mx-auto gap-x-5 w-[83%] mt-12 mb-3">
