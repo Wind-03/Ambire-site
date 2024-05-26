@@ -20,14 +20,14 @@ function Hero() {
     }, []);
     
   return (
-    <div className='w-full'>
+    <div className='w-full '>
         <img src={left} alt="" className={`absolute top-0 left-0 -z-10 mobile-img ${textLoaded ? 'text-loaded' : ''}`} />
         <img src={right} alt="" className={`absolute top-0 right-0 -z-10 tablet-img ${textLoaded ? 'text-loaded' : ''}`} />
         <section className="mx-auto text-white p-8 lg:p-[3.2rem]">
             <nav className={`navbar w-[99%] lg:max-xl:w-[95%] lg:w-[83%] mx-auto flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white rounded-full px-8 py-2 ${textLoaded ? 'text-loaded' : ''}`}> 
                 <img src={Logo} alt="" className='lg:max-2xl:w-[72px]'/>
                 <div className={`flex justify-between lg:gap-x-12 xl:gap-x-36 ${isOpen ? 'show' : ''} nav-links backdrop-filter backdrop-blur-lg bg-opacity-10 bg-white lg:bg-transparent lg:backdrop-blur-none lg:bg-opacity-100 lg:backdrop-filter-none`}>
-                    <ul className='flex text-gray-500 justify-between items-center text-sm gap-6 lg:max-2xl:text-base lg:gap-8 2xl:text-lg'>
+                    <ul className='flex lg:text-gray-500 justify-between items-center text-sm gap-6 lg:max-2xl:text-base lg:gap-8 2xl:text-lg'>
                     <li><a className="nav-link" href="/">Home</a></li>
                     <li><a className="nav-link" href="/about">Mobile App</a></li>
                     <li><a className="nav-link" href="/contact">Community</a></li>

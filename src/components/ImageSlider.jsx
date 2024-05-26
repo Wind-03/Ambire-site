@@ -31,7 +31,7 @@ const ImageSlider = () => {
         </div>
         <img src={frame} alt="" className='w-[95%] mx-auto md:-ml-12 md:w-[35%] md:mr-6 lg:mr-12 order-1 md:order-last' />
       </div>
-      <ScrollTrigger onEnter={() => setSlideIn(true)} onExitViewport={() => setSlideIn2(true)}>
+      <ScrollTrigger onEnter={() => setSlideIn(true)}  onExitViewport={() => setSlideIn2(true)} onExit={() => setSlideIn(false)}>
         <div className={`flex flex-col gap-y-4 justify-between bg-cover bg-top-center py-8 md:py-0 text-white md:flex-row w-[75%] mx-auto bg-[url('./assets/bg-image.svg')] md:bg-[url('./assets/bg-imag-two.svg')] bg-no-repeat md:bg-contain bg-[#121521] rounded-3xl md:bg-left xl:pt-20 ${slideIn ? 'slide-in active' : 'slide-in'}`} >
           <img src={formTwo} alt="" className='w-[95%] mx-auto md:w-[40%] md:ml-[5%]'/>
           <div className="text ml-[5%] w-[90%] md:w-[70%] xl:w-[45%] lg:pl-16 lg:-mt-0 lg:mr-6 xl:-mt-10">
@@ -43,7 +43,7 @@ const ImageSlider = () => {
           </div>
         </div>
       </ScrollTrigger>
-      <ScrollTrigger onEnter={() => setSlideIn2(true)}>
+      <ScrollTrigger onEnter={() => setSlideIn2(true)} onExit={() => setSlideIn2(false)}>
         <div className={`flex flex-col gap-y-4 justify-between bg-cover bg-bottom-center md:bg-right text-white md:flex-row w-[75%] mx-auto bg-[url('./assets/bg-image.svg')] bg-no-repeat md:bg-contain bg-[#121521] rounded-3xl lg:bg-right py-8 xl:pt-20 ${slideIn2 ? 'slide-in active-two' : 'slide-in'}`} >
           <div className="text ml-[5%] w-[90%] md:ml-[10%] md:w-[50%] xl:w-[45%] lg:ml-0 lg:pl-16 order-last md:order-1">
             <p className='text-[#FFCA85] pb-2'>$WALLET DAO</p>
